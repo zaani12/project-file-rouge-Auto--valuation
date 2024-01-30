@@ -58,13 +58,13 @@
                 </td>
 
                 <td class="project-actions text-center">
-                    <a class="btn  btn-sm" href="#">
+                    <a class="btn  btn-sm" href="{{ route('info') }}">
                         <i class="fas fa-eye"></i>
 
                         </i>
                         
                         </a>
-                <a class="btn  btn-sm" href="#">
+                <a class="btn  btn-sm" href="{{ route('edit') }}">
                     <i class="fas fa-pencil-alt" style="color: orange;"></i>
                 </i>
                 

@@ -24,7 +24,12 @@ Route::get ('/apprennent.nouveau', function () {
 Route::get('ajout', function () {
     return view('formateur.Ajout');
 });
-
+Route::get('info', function () {
+    return view('formateur.info');
+})->name('info');
+Route::get('edit', function () {
+    return view('formateur.edit');
+})->name('edit');
 Route::get('/for', function () {
     return view('formateur.auto_evaluation'); 
 })->name('for');
